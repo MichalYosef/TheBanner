@@ -1,0 +1,25 @@
+
+.movingImg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 20%;
+    width: auto;
+    z-index: -3;
+    animation: driveInLoop 40s infinite;
+}
+
+
+
+@keyframes driveInLoop
+{
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
